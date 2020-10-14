@@ -1,0 +1,30 @@
+{{ define "styles" }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="splash-container">
+  <div class="splash">
+    <div class="avatar">
+      <img src="/images/gauthier-wallet.jpg">
+    </div>
+
+    <div class="circles">
+  <div class="circle"></div>
+  <div class="circle"></div>
+
+</div>
+    
+    <h1>{{ .Params.heading }}.</h1>
+    {{ if isset .Params "handle" }}
+    <span class="handle">@{{ .Params.handle }}</span>
+    {{ end }}
+    <h2>
+      {{ .Params.subheading }}
+    </h2>
+    {{ partial "social-icons.html" .}}
+  </div>
+</div>
+
+{{ end }}

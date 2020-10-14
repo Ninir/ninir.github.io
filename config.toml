@@ -1,0 +1,9 @@
+baseURL = "http://gauthierwallet.com"
+languageCode = "en-us"
+title = "Gauthier Wallet - Explorer of Life."
+copyright = "© {year}"
+[params]
+  twitter = "https://twitter.com/Ninnir"
+  github = "https://github.com/Ninir"
+  linkedin = "https://www.linkedin.com/in/gauthier-wallet-8b084260/"
+  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
