@@ -2,6 +2,7 @@ baseURL = "https://gauthierwallet.com"
 languageCode = "en-us"
 title = "Gauthier Wallet"
 copyright = "© {year}"
+googleAnalytics = "UA-180662831-1"
 
 [params]
   title = "Gauthier Wallet"
