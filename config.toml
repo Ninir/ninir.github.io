@@ -1,8 +1,13 @@
-baseURL = "http://gauthierwallet.com"
+baseURL = "https://gauthierwallet.com"
 languageCode = "en-us"
-title = "Gauthier Wallet - Explorer of Life."
+title = "Gauthier Wallet"
 copyright = "© {year}"
+
 [params]
+  title = "Gauthier Wallet"
+  name = "Gauthier Wallet"
+  website = "https://gauthierwallet.com/"
+  description = "Software Engineer, Explorer of Life."
   twitter = "https://twitter.com/Ninnir"
   github = "https://github.com/Ninir"
   linkedin = "https://www.linkedin.com/in/gauthier-wallet-8b084260/"
