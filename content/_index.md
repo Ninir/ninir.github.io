@@ -1,4 +1,5 @@
 ---
 heading: "Hi, I'm Gauthier"
-subheading: "Explorer of Life - Currently living in Seattle."
+subheading: "Software Engineer - Explorer of Life."
+handle: "Seattle, WA"
 ---

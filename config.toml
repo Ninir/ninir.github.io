@@ -6,4 +6,5 @@ copyright = "© {year}"
   twitter = "https://twitter.com/Ninnir"
   github = "https://github.com/Ninir"
   linkedin = "https://www.linkedin.com/in/gauthier-wallet-8b084260/"
-  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
+  instagram = "https://www.instagram.com/gauthier.wallet/"
+  iconOrder = ["Twitter", "GitHub", "LinkedIn", "Instagram"]
