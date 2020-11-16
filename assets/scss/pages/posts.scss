@@ -62,5 +62,12 @@
 
 .read-more-link {
   display: block;
+  color: #9b9b9b;
+  font-style: italic;
   margin-top: 1rem;
+  text-decoration: none;
+
+  i.fa {
+    font-size: 80%;
+  }
 }

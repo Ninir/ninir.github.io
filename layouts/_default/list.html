@@ -17,9 +17,11 @@
         </h2>
         <article class="post__excerpt">
           {{ .Summary }}
-
           {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}" class="read-more-link">Read More…</a>
+            <a href="{{ .RelPermalink }}" class="read-more-link">
+              <i class="fa fa-arrow-right"></i>
+              Read More…
+            </a>
           {{ end }}
         </article>
         {{ partial "tags.html" .}}
