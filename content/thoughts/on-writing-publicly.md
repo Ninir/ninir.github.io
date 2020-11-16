@@ -4,7 +4,7 @@ date: 2020-11-15T19:44:46-08:00
 slug: "on-writing-publicly"
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
