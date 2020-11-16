@@ -14,3 +14,17 @@ googleAnalytics = "UA-180662831-1"
   linkedin = "https://www.linkedin.com/in/gauthier-wallet-8b084260/"
   instagram = "https://www.instagram.com/gauthier.wallet/"
   iconOrder = ["Twitter", "GitHub", "LinkedIn", "Instagram"]
+  showPageTitleInTOC = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Homepage"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "thoughts"
+    name = "Thoughts"
+    url = "/thoughts/"
+    weight = 10

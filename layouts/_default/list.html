@@ -11,11 +11,17 @@
     {{ range .Pages }}
     <li class="post">
       <div class="post__header">
-        <time class="post__date" datetime="{{ .Date }}"
-          >{{ .Date.Format $dateFormat }}</time>
         <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
+          <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
         </h2>
+        <article class="post__excerpt">
+          {{ .Summary }}
+
+          {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}" class="read-more-link">Read More…</a>
+          {{ end }}
+        </article>
         {{ partial "tags.html" .}}
       </div>
     </li>

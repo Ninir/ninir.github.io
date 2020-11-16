@@ -8,12 +8,13 @@
   align-items: center;
   background: $white;
   visibility: hidden;
-  z-index: 1;
+  z-index: 31;
 
   @media screen and (min-width: $medium) {
     display: block;
     visibility: visible;
     padding-top: 3em;
+    margin-left: 3em;
     width: $navWidth;
   }
 }
@@ -29,7 +30,7 @@
 }
 
 .nav__list {
-  text-align: right;
+  text-align: left;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -43,7 +44,7 @@
     transform: translateY(-25px);
     opacity: 0;
     .nav--active & {
-      transform: translateY(0);
+      // transform: translateY(0);
       opacity: 1;
       transition: all 500ms ease;
     }
