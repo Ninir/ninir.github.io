@@ -1,6 +1,6 @@
 ---
 heading: "Hi, I'm Gauthier"
-subheading: "Engineering Manager - Explorer of Life."
-handle: "Seattle, WA"
+subheading: "Sr. Engineering Manager - Explorer of Life."
+handle: "San Diego, WA"
 title: "Gauthier Wallet"
 ---
