@@ -1,18 +1,17 @@
 baseURL = "https://gauthierwallet.com"
 languageCode = "en-us"
-title = "Gauthier Wallet"
+title = "Gauthier Wallet - Tech Leader & Continuous Learner"
 copyright = "© {year}"
 googleAnalytics = "UA-180662831-1"
 
 [params]
-title = "Gauthier Wallet"
+title = "Gauthier Wallet - Tech Leader"
 name = "Gauthier Wallet"
 website = "https://gauthierwallet.com/"
-description = "Software Engineer, Explorer of Life."
+description = "Software Engineer at heart looking to expand his knowledge and discover new worlds."
 github = "https://github.com/Ninir"
 linkedin = "https://www.linkedin.com/in/gauthier-wallet-8b084260/"
-instagram = "https://www.instagram.com/gauthier.wallet/"
-iconOrder = ["GitHub", "LinkedIn", "Instagram"]
+iconOrder = ["GitHub", "LinkedIn"]
 showPageTitleInTOC = true
 
 [menu]

@@ -1,6 +1,6 @@
 ---
 heading: "Hi, I'm Gauthier"
-subheading: "Sr. Engineering Manager - Continuous Learner, discovering Life one step at a time."
-handle: "Orleans, France"
+subheading: "Tech Leader & Continuous Learner."
+handle: "France"
 title: "Gauthier Wallet"
 ---
